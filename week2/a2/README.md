@@ -1,12 +1,15 @@
 # Data512, Assignment 2
 The purpose of this project was to asses bias of english wikipedia articles on politicians across the globe. This readme contains information on the APIs used to collect and process data, as well as some discoveries and further thoughts on the subject.
 
-#Data
+# Resources
 
 ORES (Objective Revision Evaluation Service) API:
 Links:
 https://ores.wikimedia.org/v3/
 https://ores.wikimedia.org/
+
+World Poplation Dataset:
+https://www.prb.org/worldpopdata/
 
 License: CC-BY-SA 3.0 and GFDL licenses (https://creativecommons.org/licenses/by-sa/3.0/, https://www.gnu.org/licenses/fdl-1.3.html)
 
