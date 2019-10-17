@@ -30,6 +30,7 @@ Terms of use: https://foundation.wikimedia.org/wiki/Terms_of_Use/en
 
 ## primary csv
 wp_wpds_politicians_by_country.csv schema
+
 | Column | type | description |
 |--------|------|-------------|
 | index(country)  | string  | the country name is the index for this csv          |
