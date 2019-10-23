@@ -1,12 +1,15 @@
 # Data512, Assignment 2
 The purpose of this project was to asses bias of english wikipedia articles on politicians across the globe. This readme contains information on the APIs used to collect and process data, as well as some discoveries and further thoughts on the subject.
 
-#Data
+# Resources
 
 ORES (Objective Revision Evaluation Service) API:
 Links:
 https://ores.wikimedia.org/v3/
 https://ores.wikimedia.org/
+
+World Poplation Dataset:
+https://www.prb.org/worldpopdata/
 
 License: CC-BY-SA 3.0 and GFDL licenses (https://creativecommons.org/licenses/by-sa/3.0/, https://www.gnu.org/licenses/fdl-1.3.html)
 
@@ -30,6 +33,7 @@ Terms of use: https://foundation.wikimedia.org/wiki/Terms_of_Use/en
 
 ## primary csv
 wp_wpds_politicians_by_country.csv schema
+
 | Column | type | description |
 |--------|------|-------------|
 | index(country)  | string  | the country name is the index for this csv          |
@@ -48,6 +52,7 @@ This is highlighted in the observations in the jupyter notebook, but I mainly be
     2. high in literacy rates
     3. possessing increasingly equitable internet resources
     4. first world countries
+    
 Of course, this still needs to be investigate more rigorously, but for now this is what my intuition believes to be the bias in the data present
 - How might a researcher supplement or transform this dataset to potentially correct for the limitations/biases you observed?
 This depends plenty on the context the data is being used in. If the researcher were to use these scores to say, provide funding to countries who are either doing exceedingly well or poor (some kind of fellowship to encourage open political information to the world), they would need to be careful of these biases. Particularly if some machine learning algorithm were used to be an automated decision maker in this setting. To correct for these things, I would suggest some weighting of literacy rates, percentage of english speakers, gdp / wealth distribution. I could imagine some equation that weights these things such that we remove the "trend" and you are left with actual signals of improving article coverage within a country or region. I imagine it almost as "de trending" this bias removal process.
