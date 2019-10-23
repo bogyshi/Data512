@@ -25,8 +25,8 @@ Terms of use: https://foundation.wikimedia.org/wiki/Terms_of_Use/en
 | data/WPDS_2018_data.csv | csv file | contains countries and their popluation in millions |
 | wp_wpds_countries-no_match.csv | csv file | Some countries didnt have population data, or some countries didnt show up in our wikipedia pages, these are those files |
 | wp_wpds_politicians_by_country.csv | csv file |  holds page, country, rev_id, region, population, and article quality together |
-| scoresAndPop.csv | csv file | involves groupby on the wp_wpds_politicians_by_country.csv file and used for country granularity analysis |
-| regionAnalysis.csv | csv file | involves groupby on the wp_wpds_politicians_by_country.csv file and used for region granularity analysis |
+| countryAnalysisData.csv | csv file | involves groupby on the wp_wpds_politicians_by_country.csv file and used for country granularity analysis |
+| regionAnalysisData.csv | csv file | involves groupby on the wp_wpds_politicians_by_country.csv file and used for region granularity analysis |
 
 ## primary csv
 wp_wpds_politicians_by_country.csv schema

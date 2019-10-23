@@ -12,7 +12,7 @@ Tricia Wang makes a convincing argument that we cant focus too much on numbers. 
 
 
 One question that came to mind.
-I suppose this isnt a matter of handling more qualitative data, where there are more string types in our data. Rather I think Tricia Wang is saying that we need this "thick" data to guide those who make decisions with quantitative data, so they know when they should or not respond to the metrics they have collected and if they hsould be measuring different signals instead. I suppose my question would be, is thick data meant to guide the quantitative measures of success? (ex, revenue, units sold, social media following ..), and/or is it meant to make sure we dont over or under-react to the quantitative signals we have?
+I suppose this isnt a matter of handling more qualitative data, where there are more string types in our data. Rather I think Tricia Wang is saying that we need this "thick" data to guide those who make decisions with quantitative data, so they know when they should or not respond to the metrics they have collected and if they should be measuring different signals instead. I suppose my question would be, is thick data meant to guide the quantitative measures of success? (ex, revenue, units sold, social media following ..), and/or is it meant to make sure we dont over or under-react to the quantitative signals we have?
 
 Which Reading:
 The Story in the Notebook: Exploratory Data Science using a Literate Programming Tool
