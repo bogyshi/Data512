@@ -74,6 +74,10 @@ def handleSpills():
 
             pairWiseCommon1 = pairWiseCommon2
         counter+=1
+    (pd.concat(overlappingHouses)).to_csv(os.path.join(od,'blockSpillsep.csv'))
+
+def testFunc():
+    print('testing done')
 '''
 Order should be sepAllData then handleSpills
 '''
