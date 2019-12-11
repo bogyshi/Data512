@@ -1,6 +1,10 @@
 ## Smart Meter Analysis
 ## Author: Alexander Van Roijen
 
+### Abstract
+This folder demonstrates the cumulative learnings of the human centered data science course applied to a data analysis project on smart meter data in the U.K.
+Results shown in the SmartMeterResults notebook demonstrate significant savings in energy for ToU households and attempts to predict future consumption with only prior signals as input using SINDy.
+
 This README simply serves as a description of the files present in this folder of the repository.
 
 In the analyses folder you will find the smartMeterAnalyses.ipynb notebook that contains the workflow to generate the results highlighted in SmartMeterResults.ipynb
@@ -17,3 +21,5 @@ Demand Response and Smart Meters.pdf is a presentation of the results from this 
 __For more information on the data and licenses, please reference the smartMeterResults notebook__
 
 Licensing info of this repo can be found in the license.md file
+
+This project was motivated by and developed by DATA 512. You can find more information on the course here https://wiki.communitydata.science/Human_Centered_Data_Science_(Fall_2019)
